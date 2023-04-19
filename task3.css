@@ -1,0 +1,105 @@
+
+body{
+    background-image: url(pexels-photo-1229861.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: fit-content;
+    
+}
+/* .back{
+    background-image: url("pexels-photo-1097456.jpeg");
+    background-size: cover;
+    margin-left: 80px;
+    align-items: center;
+   
+   
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.logo img{
+    margin-top: 10px;
+    width: 90px;
+    height:90px;
+    border-radius: 20px;
+}
+nav{
+    width: 100vw;
+    height:100px;
+    padding: 10px 30px;
+    /* padding-left: 200px;
+    
+    padding-right: 200px; */
+    
+    background-color: rgb(10, 101, 107);
+}
+.main{
+    padding: 0px 60px;
+display: flex;
+justify-content: space-between;
+}
+.inner{
+    color: rgb(228, 128, 14);
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner a{
+    margin-top: 30px;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    /* border: 1px solif rgb(62, 206, 241);
+    border-radius: 20px; */
+    padding: 5px 20px;
+    background-color: rgb(10, 101, 107);
+}
+.inner input[type=search]{
+    border-radius: 10px;
+    padding: 2px 3px;
+    color: white;
+    font-size: 3px;
+    
+
+}
+
+.content{
+    color: whitesmoke;
+    margin-top: 150px;
+    text-align: center;
+}
+.btns input[type=button]{
+    
+
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-size: 27px;
+    background-color: rgb(223, 127, 18);
+}
+hr{
+    
+    width: 200px;
+    align-items: center;
+}
+.h1{
+
+    
+    font-size: 100px;
+}
+.h4{
+    
+    font-size: 80px;
+}
+footer{
+    font-size: 30px;
+    margin-top: 80vh;
+    background-color: rgb(39, 31, 31);
+    color: white;
+    width: fit-content;
+    
+}
